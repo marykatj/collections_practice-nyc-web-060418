@@ -39,7 +39,7 @@ end
 def find_a(string_array)
   a_array = []
   string_array.each do |string|
-    if string.include?("a")
+    if string.start_with?("a")
       a_array.push(string)
     end
   end
