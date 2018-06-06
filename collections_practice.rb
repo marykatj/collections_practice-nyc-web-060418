@@ -26,3 +26,9 @@ def reverse_array(integers_array)
   integers_array.reverse do |integer|
   end
 end
+
+def kesha_maker(atring_array)
+  string_array.collect do |string|
+    string[2].replace($)
+  end
+end
