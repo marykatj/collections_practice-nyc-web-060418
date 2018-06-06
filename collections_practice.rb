@@ -57,5 +57,3 @@ def add_s(string_array)
     end
   end
 end
-
-    
