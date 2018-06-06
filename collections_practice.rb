@@ -49,3 +49,15 @@ end
 def sum_array(integers_array)
   integers_array.inject { |sum, n| sum + n }
 end
+
+def add_s(string_array)
+  string_array.collect.with_index do |element, index|
+    if index == 1
+      element
+    else
+      element +"s"
+    end
+  end
+end
+
+    
