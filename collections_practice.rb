@@ -17,7 +17,7 @@ def sort_array_char_count(string_array)
 end
 
 def swap_elements(array)
-  if array[2]
+  if array[1]
     array.sort
   end
 end
