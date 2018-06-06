@@ -19,5 +19,4 @@ end
 def swap_elements(array)
   if array[2]
     array.sort|a, b|
-  end
 end
