@@ -1,5 +1,6 @@
 def sort_array_asc(integers_array)
-  integers_array.sort do |integer|
+  integers_array.sort do |a, b|
+    a <=> b
   end
 end
 
