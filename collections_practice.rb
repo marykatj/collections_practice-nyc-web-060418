@@ -21,3 +21,8 @@ def swap_elements(array)
     array.sort
   end
 end
+
+def reverse_array(integers_array)
+  integers_array.reverse do |integer|
+  end
+end
