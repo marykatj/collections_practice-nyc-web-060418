@@ -27,7 +27,7 @@ def reverse_array(integers_array)
   end
 end
 
-def kesha_maker(atring_array)
+def kesha_maker(string_array)
   kesha_array = []
   string_array.each do |string|
     new_kesha_string = string[2].replace($)
@@ -35,3 +35,14 @@ def kesha_maker(atring_array)
   end
   kesha_array
 end
+
+def find_a(string_array)
+  a_array = []
+  string_array.each do |string|
+    if string.include?("a")
+      a_array.push(string)
+    end
+  end
+  a_array
+end
+      
