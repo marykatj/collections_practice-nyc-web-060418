@@ -28,12 +28,10 @@ def reverse_array(integers_array)
 end
 
 def kesha_maker(string_array)
-  kesha_array = []
-  string_array.each do |string|
-    #new_kesha_string = string[2].replace($)
-  #  kesha_array.push(new_kesha_string)
+  string_array.collect do |string|
+    string[2]= "$"
+    string
   end
-  kesha_array
 end
 
 def find_a(string_array)
