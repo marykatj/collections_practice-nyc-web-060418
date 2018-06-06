@@ -30,7 +30,7 @@ end
 def kesha_maker(atring_array)
   kesha_array = []
   string_array.each do |string|
-    new_kesha_string = (string[2].replace($)
+    new_kesha_string = string[2].replace($)
     kesha_array.push(new_kesha_string)
   end
   kesha_array
