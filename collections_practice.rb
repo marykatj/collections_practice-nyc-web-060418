@@ -30,8 +30,8 @@ end
 def kesha_maker(string_array)
   kesha_array = []
   string_array.each do |string|
-    new_kesha_string = string[2].replace($)
-    kesha_array.push(new_kesha_string)
+    #new_kesha_string = string[2].replace($)
+  #  kesha_array.push(new_kesha_string)
   end
   kesha_array
 end
