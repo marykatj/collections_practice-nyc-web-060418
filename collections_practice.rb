@@ -15,3 +15,9 @@ def sort_array_char_count(string_array)
     a.length <=> b.length
   end
 end
+
+def swap_elements(array)
+  if array[2]
+    array.sort|a, b|
+  end
+end
